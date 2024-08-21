@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 
-<article class="mb-24">
+<article>
     <div class="pt-12 lg:pt-0 lg:sticky top-28 max-w-5xl mx-auto">
         <a href="/" aria-label="Return to homepage"
             class="text-gray-800 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 focus:bg-gray-200 pl-3 pr-3.5 py-1.5 transition font-medium rounded-full flex flex-row items-center gap-x-0.5 text-sm w-fit"><svg
@@ -13,12 +13,14 @@ layout: base.njk
                     clip-rule="evenodd" />
             </svg>Back</a>
     </div>
-    <div class="max-w-2xl mx-auto pt-10 lg:pt-20">
-        <h1 class="text-3xl md:text-4xl leading-tight md:leading-none font-semibold mb-4">{{ title }}</h1>
-        <p class="text-lg text-gray-700">{{ year }} · {{ type }}</p>
-        <img src="{{ thumb }}" alt="" class="my-12 rounded-lg">
-    </div>
-    <div class="post">
-        {{ content | safe }}
+    <div class="max-w-2xl mx-auto ">
+        <div class="pt-10 lg:pt-20">
+            <h1 class="text-3xl md:text-4xl leading-tight md:leading-none font-semibold mb-4">{{ title }}</h1>
+            <p class="text-lg text-gray-700">{{ year }} · {{ type }}</p>
+            <img src="{{ thumb }}" alt="" class="my-12 rounded-lg">
+        </div>
+        <div class="post mb-16">
+            {{ content | safe }}
+        </div>
     </div>
 </article>
