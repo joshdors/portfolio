@@ -33,24 +33,23 @@ body {
 
     figure {
         @apply my-10;
+    }
 
-        img {
-            @apply max-w-full rounded-lg;
-        }
+    figure img {
+        @apply rounded-lg;
+    }
 
-        figcaption {
-            @apply mt-4 text-gray-500 text-sm leading-5;
-        }
+    figure figcaption {
+        @apply mt-4 text-gray-500 text-sm leading-5;
     }
 
     .full-width {
         @apply max-w-5xl mx-auto;
     }
 
-    .border-figure {
-        img {
-            @apply rounded-lg border;
-        }
+    .border-figure img {
+        @apply rounded-lg border;
+
     }
 
     iframe {
