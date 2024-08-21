@@ -1,11 +1,7 @@
 module.exports = {
   content: ["./src/**/*.{html,njk,md}"],
   theme: {
-    extend: {
-      fontFamily: {
-        'inter': ['Inter', 'sans-serif']
-      }
-    },
+    extend: {},
   },
   plugins: [
     require('@tailwindcss/typography'),
