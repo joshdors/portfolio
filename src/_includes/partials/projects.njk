@@ -1,0 +1,12 @@
+<div class="grid grid-cols-1 md:grid-cols-2 gap-9">
+    {% for project in collections.project reversed %}
+    <a href="{{ project.url }}" class="group relative overflow-hidden rounded-lg shadow-inner">
+        <img src="{{ project.data.thumb }}" alt="Thumbnail image for {{ project.data.title }} project"
+            class="group-hover:scale-105 transition duration-500">
+        <div
+            class="transition duration-500 group-hover:opacity-100 group-focus:opacity-100 opacity-0 absolute bg-gradient-to-t from-black/90 to-transparent inset-0">
+            <h2 class="absolute bottom-7 font-medium left-6 text-white">{{ project.data.title }}, {{ project.data.year }}</h2>
+        </div>
+    </a>
+    {% endfor %}
+</div>

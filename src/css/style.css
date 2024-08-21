@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post {
+
+    * {
+        @apply max-w-2xl mx-auto leading-[1.65] text-gray-700 text-lg;
+    }
+
+    p {
+        @apply mb-4;
+    }
+
+    h2 {
+        @apply text-2xl font-semibold mb-5 leading-7 text-gray-950;
+    }
+
+    h3 {
+        @apply text-lg font-semibold text-gray-950 mb-2 mt-9;
+    }
+
+    a {
+        @apply text-blue-600 hover:underline underline-offset-4 focus:underline;
+    }
+
+    figure {
+        @apply my-10;
+
+        img {
+            @apply max-w-full rounded-lg;
+        }
+
+        figcaption {
+            @apply mt-4 text-gray-500 text-sm leading-5;
+        }
+    }
+
+    .full-width {
+        @apply max-w-5xl mx-auto;
+    }
+
+    .border-figure {
+        img {
+            @apply rounded-lg border;
+        }
+    }
+
+    iframe {
+        @apply border border-gray-200 w-full rounded-lg my-10;
+    }
+
+    ul {
+        @apply list-disc pl-4 my-4 py-0 space-y-3 marker:text-gray-300;
+    }
+
+    strong {
+        @apply font-semibold;
+    }
+
+    hr {
+        @apply border-gray-400/60 my-14 border-dashed;
+    }
+}

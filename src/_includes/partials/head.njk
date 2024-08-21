@@ -1,0 +1,51 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="{{ meta.siteDescription }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {% if page.url == '/' %}{{ meta.siteName }}
+    {% else %}
+    {{ title }}{% if page.url != '/' %}&nbsp;&bull;&nbsp;{{ meta.siteName }}
+    {% endif %}
+    {% endif %}
+  </title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    @font-face {
+      font-family: 'Inter';
+      src: url('/Inter/Inter18pt-Medium.woff2') format('woff2'),
+        url('/Inter/Inter18pt-Medium.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      src: url('/Inter/Inter18pt-Bold.woff2') format('woff2'),
+        url('/Inter/Inter18pt-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      src: url('/Inter/Inter18pt-Regular.woff2') format('woff2'),
+        url('/Inter/Inter18pt-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      src: url('/Inter/Inter18pt-SemiBold.woff2') format('woff2'),
+        url('/Inter/Inter18pt-SemiBold.woff') format('woff');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
+</head>
