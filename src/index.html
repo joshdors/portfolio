@@ -5,10 +5,15 @@ layout: base.njk
 <div class="max-w-7xl mx-auto mb-9 md:mb-16">
     <div class="my-20 md:my-24">
         <div class="max-w-[600px]">
-            <h1 class="mb-6">{{ meta.siteName }}&nbsp;&mdash;&nbsp;Web Designer & Developer</h1>
-            <p class="text-4xl md:text-5xl leading-tight md:leading-tight font-semibold tracking-[-0.013em]">{{ meta.siteDescription }}</p>
-            <a href="https://www.linkedin.com/in/joshdors/" target="_blank"
-                class="mt-8 block w-fit px-5 rounded-full py-3 bg-gray-950 text-white font-medium text-[15px] leading-5 hover:bg-gray-800 focus:bg-gray-800">Resume/CV&nbsp;&nearr;</a>
+            <h1 class="text-4xl md:text-5xl leading-tight md:leading-tight font-[650] tracking-[-0.015em] mb-6">{{
+                meta.siteDescription }}</h1>
+            <p class="text-lg">Specializing in user interface design and web accessibility.</p>
+            <div class="flex flex-row items-center gap-x-3 mt-8">
+                <a href="https://www.linkedin.com/in/joshdors/" target="_blank"
+                    class="px-5 rounded-full py-3 bg-gray-950 text-white font-medium text-[15px] leading-5 hover:bg-gray-800">Resume/CV</a>
+                <a href="mailto:hello@joshdors.me"
+                    class="px-5 rounded-full py-3 font-medium bg-white ring-2 text-[15px] ring-gray-200 ring-inset leading-5 hover:ring-gray-300">Contact</a>
+            </div>
         </div>
     </div>
     {% include 'partials/projects.njk' %}
