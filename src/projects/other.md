@@ -1,7 +1,7 @@
 ---
 title: "Explorations"
 tags: project
-thumb: "/img/other/workday.webp"
+thumb: "/img/other/email.webp"
 date: 2020-12-25
 showthumb: false
 ---
