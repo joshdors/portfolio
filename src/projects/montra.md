@@ -1,6 +1,5 @@
 ---
 title: "Montra"
-summary: "Designing a user interface for a web app video creation tool"
 tags: project
 type: "Web App, UI Design"
 year: "2023"

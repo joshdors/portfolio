@@ -1,6 +1,5 @@
 ---
 title: "Bitwarden"
-summary: "For this side project, I'll be redesigning the website with the goal of enhancing the overall user experience and also adding some new useful features."
 tags: project
 type: "Web App, UX Design"
 year: "2023"
