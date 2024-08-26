@@ -5,6 +5,7 @@ type: "Mobile Design"
 year: "2024"
 thumb: "/img/help.jpg"
 date: 2024-06-25
+showthumb: true
 ---
 
 ---

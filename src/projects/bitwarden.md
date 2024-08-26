@@ -6,6 +6,7 @@ type: "Web App, UX Design"
 year: "2023"
 thumb: "/img/bitwarden/thumb.webp"
 date: 2023-10-25
+showthumb: true
 ---
 
 --- 
@@ -29,7 +30,7 @@ date: 2023-10-25
 
 Changing the typeface of a product can make a big impact on the overall feel. For Bitwarden, I changed the typeface to [Inter](https://rsms.me/inter/), a modern sans-serif font that works great for this type of interface.
 
-### Navigation and Sidebar
+### Navigation
 
 The current design uses an outdated sidebar design. Because of this, there's a lot of empty whitespace being underutilized. In the updated design, I moved the floating sidebar to the left and can now utilize some horizontal space for each item that was just empty whitespace before.
 

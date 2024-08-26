@@ -6,6 +6,7 @@ type: "Personal Project, Web Design"
 year: "2023"
 thumb: "/img/spark/thumb.webp"
 date: 2023-03-25
+showthumb: true
 ---
 
 ---

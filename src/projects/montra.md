@@ -6,6 +6,7 @@ type: "Web App, UI Design"
 year: "2023"
 thumb: "/img/montra/thumb.webp"
 date: 2023-12-25
+showthumb: true
 ---
 
 ---
