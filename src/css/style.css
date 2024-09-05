@@ -6,6 +6,10 @@ html {
     font-feature-settings: "ss01","cv05","cv06";
 }
 
+* {
+    @apply outline-offset-2;
+}
+
 .link {
     @apply text-blue-600 hover:underline focus:underline;
 }
