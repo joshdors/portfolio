@@ -1,4 +1,4 @@
-<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-10">
     {% for project in collections.project reversed %}
     <a href="{{ project.url }}" class="group relative overflow-hidden rounded-lg">
         <img src="{{ project.data.thumb }}" alt="Thumbnail image for {{ project.data.title }} project"

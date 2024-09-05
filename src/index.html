@@ -2,19 +2,13 @@
 layout: base.njk
 ---
 
-<div class="max-w-7xl mx-auto mb-9 md:mb-16">
-    <div class="my-20 md:my-24">
-        <div class="max-w-xl">
-            <h1 class="text-4xl md:text-5xl leading-tight md:leading-tight font-semibold tracking-[-0.01em] mb-6">{{
-                meta.siteDescription }}</h1>
-            <p class="text-lg">Specializing in user interface design and web accessibility.</p>
-            <div class="flex flex-row items-center gap-x-3 mt-8">
-                <a href="https://www.linkedin.com/in/joshdors/" target="_blank"
-                    class="px-5 rounded-full py-3 bg-gray-950 text-white font-medium text-[15px] leading-5 hover:bg-gray-800">Resume/CV</a>
-                <a href="mailto:hello@joshdors.me"
-                    class="px-5 rounded-full py-3 font-medium bg-white ring-2 text-[15px] ring-gray-200 ring-inset leading-5 hover:ring-gray-300">Contact</a>
-            </div>
-        </div>
+<div class="mb-9 md:mb-16">
+    <div class="my-16 md:my-20 max-w-xl">
+        <h1 class="text-4xl md:text-5xl leading-tight md:leading-tight font-semibold tracking-tight mb-6">Hey there, I'm
+            Josh. Welcome to my portfolio.</h1>
+        <p class="leading-7">I'm a simplicity-focused designer and developer specializing in user
+            interface design and web accessibility.</p>
+        {% include 'partials/links.njk' %}
     </div>
     {% include 'partials/projects.njk' %}
 </div>
