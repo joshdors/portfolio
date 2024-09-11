@@ -7,7 +7,7 @@
 }
 
 .link {
-    @apply underline decoration-2 decoration-gray-200 hover:text-gray-900;
+    @apply underline decoration-2 decoration-gray-200 hover:decoration-gray-300;
 }
 
 .post {
