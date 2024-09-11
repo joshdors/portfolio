@@ -2,7 +2,7 @@
     {% for project in collections.project reversed %}
     <a href="{{ project.url }}" class="group relative overflow-hidden rounded-md">
         <img src="{{ project.data.thumb }}" alt="Thumbnail image for {{ project.data.title }} project"
-            class="group-hover:scale-105 transition duration-500">
+            class="group-hover:scale-105 transition duration-500" width="620" height="465">
         <div
             class="transition duration-500 group-hover:opacity-100 group-focus:opacity-100 opacity-0 absolute bg-gradient-to-t from-black/70 to-transparent inset-0">
             <h2 class="absolute bottom-7 font-medium left-6 text-white">{{ project.data.title }}{% if project.data.year %}, {{ project.data.year }}{% endif %}</h2>
