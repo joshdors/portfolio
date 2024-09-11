@@ -22,7 +22,7 @@ After familiarizing myself with the app and its features, I started planning out
 
 <figure>
     <picture>
-        <img src="/img/montra/layout.webp" alt="Toogle switch components" loading="lazy">
+        <img src="/img/montra/layout.webp" alt="" loading="lazy">
     </picture>
     <figcaption>A look at the new layout for Montra.</figcaption>
 </figure>
