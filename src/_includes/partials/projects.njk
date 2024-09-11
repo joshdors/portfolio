@@ -1,7 +1,7 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
     {% for project in collections.project reversed %}
     <a href="{{ project.url }}" class="group relative overflow-hidden rounded-md">
-        <img src="{{ project.data.thumb }}" alt="Thumbnail image for {{ project.data.title }} project"
+        <img src="{{ project.data.thumb }}" alt="Thumbnail image for {{ project.data.title }} project" loading="lazy"
             class="group-hover:scale-105 transition duration-500" width="620" height="465">
         <div
             class="transition duration-500 group-hover:opacity-100 group-focus:opacity-100 opacity-0 absolute bg-gradient-to-t from-black/70 to-transparent inset-0">
