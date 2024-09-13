@@ -21,7 +21,7 @@
     }
 
     h2 {
-        @apply text-2xl font-semibold mb-4 leading-tight text-gray-950;
+        @apply text-2xl font-semibold mb-5 leading-tight text-gray-950;
     }
 
     h3 {
@@ -62,7 +62,7 @@
     }
 
     hr {
-        @apply border-gray-400/60 my-14 border-dashed;
+        @apply border-gray-100 my-14;
     }
 
     img {
