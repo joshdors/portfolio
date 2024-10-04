@@ -1,22 +1,18 @@
 ---
 title: "Montra"
+summary: "Designing an interface for a web based video creation tool."
 tags: project
-type: "Web App, UI Design"
-year: "2023"
 thumb: "/img/montra/thumb.webp"
 date: 2023-12-25
-showthumb: true
+year: 2023
+type: Product design
 ---
 
----
-
-## Background
-
-I had the oppurtunity to work on the design of [Montra](), a slide-based video editor that helps people make professional videos with a similar experience to making a PowerPoint presentation. My role was to design a user interface based on pre-existing wireframes and to make changes to the user experience as I saw fit. This is a little walkthrough of how I designed the web app.
+I had the oppurtunity to work on the design of [Montra](http://montra.com), a slide-based video editor that helps people make professional videos with a similar experience to making a PowerPoint presentation. My role was to design a user interface based on pre-existing wireframes and to make changes to the user experience as I saw fit. This is a little walkthrough of how I designed the web app.
 
 ---
 
-## Improving the Existing Layout
+## Getting started
 
 After familiarizing myself with the app and its features, I started planning out the new layout that fixes a few problems the initial wireframes had. The pre-existing wireframes had components that overlapped the video preview section, something I didn't like from a user experience standpoint.
 
@@ -29,10 +25,9 @@ After familiarizing myself with the app and its features, I started planning out
 
 ---
 
-## Components
+## Designing new components
 
 My goal with the components was to make them modern and friendly without the interface feeling intimidating, which can sometimes be the case for this type of product. You'll notice that the components have a more playful roundness compared to the more sophisticated look that most modern video editors have. Here's a look at some of the components I designed for the app:
-
 
 <figure class="border-figure">
     <picture>
@@ -54,7 +49,7 @@ My goal with the components was to make them modern and friendly without the int
 
 ---
 
-## Initial Design Concepts
+## Initial design concepts
 
 After designing the components, I worked on the first mockups of the app, creating both a light theme and a dark theme. These mockups laid a solid foundation for the final design.
 
@@ -72,7 +67,7 @@ After designing the components, I worked on the first mockups of the app, creati
 
 ---
 
-## Design
+## Final design
 
 After a design review of the initial mockups, we made several changes. Here are some notable changes we implemented:
 

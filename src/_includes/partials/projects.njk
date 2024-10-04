@@ -1,12 +1,17 @@
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-    {% for project in collections.project reversed %}
-    <a href="{{ project.url }}" class="group relative overflow-hidden rounded-md">
-        <img src="{{ project.data.thumb }}" alt="Thumbnail image for {{ project.data.title }} project"
-            class="group-hover:scale-105 transition duration-500">
-        <div
-            class="transition duration-500 group-hover:opacity-100 group-focus:opacity-100 opacity-0 absolute bg-gradient-to-t from-black/70 to-transparent inset-0">
-            <h2 class="absolute bottom-7 font-medium left-6 text-white">{{ project.data.title }}{% if project.data.year %}, {{ project.data.year }}{% endif %}</h2>
-        </div>
-    </a>
-    {% endfor %}
-</div>
+<section id="projects">
+    <div class="flex flex-row items-center mb-8">
+        <h2 class="font-bold text-lg">Recent work</h2>
+        <div class="flex-1 h-px ml-4 bg-zinc-200"></div>
+    </div>
+    <div class="flex flex-col gap-y-10">
+        {% for project in collections.project reversed %}
+        <a href="{{ project.url }}" class="bg-white border shadow-sm hover:shadow-md rounded-md overflow-hidden">
+            <img src="{{ project.data.thumb }}" alt="Thumbnail image for {{ project.data.title }} project.">
+            <div class="p-4">
+                <h3 class="font-semibold">{{ project.data.title }}</h3>
+                <p class="mt-1 text-zinc-600">{{ project.data.summary }}</p>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</section>

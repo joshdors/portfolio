@@ -1,6 +1,6 @@
 ---
 title: "Explorations"
-tags: project
+tags:
 thumb: "/img/other/email.webp"
 date: 2020-12-25
 showthumb: false

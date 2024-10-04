@@ -1,22 +1,18 @@
 ---
-title: "Seeker"
+title: "Making it easy to search and apply to jobs"
 tags: 
 type: "Mobile Design"
 year: "2024"
-thumb: "/img/help.jpg"
+thumb: "/img/thumb.png"
 date: 2024-06-25
 showthumb: true
----
-
 ---
 
 ## Introduction 
 
 I really enjoy solving problems and helping people through design. So, for a fun side project I wanted to create an app that makes it easy to search and apply to jobs. Right now, if you were to go on LinkedIn, Indeed or any other job search website, the overall user experience can be confusing and sometimes even frustrating. My goal with this project is to design a product that addresses these problems and adds helpful features.
 
----
-
-## Search
+## What are some of the problems?
 
 One of my biggest gripes with the most popular job search websites is that the search doesn't always return the results I want. To explain this better, I've added a screenshot below showing some results of a search I made on Indeed for 'Web Designer'. On the first page of results (sorted by most recent), there were 16 results, with only 4 having 'Web Designer' in the title. The user shouldn't have to sift through that many jobs to find the ones they searched for.
 

@@ -1,23 +1,18 @@
 ---
 title: "Spark"
-summary: "Designing an online marketplace for electric vehicles"
+summary: "Designing a conceptual website that makes it easy to buy and sell EV's online."
 tags: project
-type: "Personal Project, Web Design"
-year: "2023"
 thumb: "/img/spark/thumb.webp"
 date: 2023-03-25
-showthumb: true
+year: 2023
+type: Side project
 ---
-
----
-
-## Background
 
 Spark is a conceptual website that aims to provide an enjoyable and user-friendly experience for people shopping for electric cars. It’s 2023, and there isn't a website for shopping for electric cars that offers a pleasant and user-friendly experience. Instead, existing websites tend to have confusing and outdated user interfaces. Spark aims to fill this gap by simplifying the process and making it easy for users to find the electric vehicle they are looking for.
 
 ---
 
-## Research
+## Competitor analysis
 
 To create a better website, I conducted a thorough market analysis, evaluating similar websites. By examining what works and what doesn't work in the current market, I gained valuable insights and ideas for designing a better website.
 
@@ -43,7 +38,7 @@ To create a better website, I conducted a thorough market analysis, evaluating s
 
 ---
 
-## Creating the Design System
+## Creating the design system
 
 To achieve the desired feel of the interface, I used different shades of blue as the primary colour, along with bluish greys that share a similar hue to the primary colour. While brighter and warmer colours like orange, red, and green are popular in the market today, I chose blue because it conveys a sense of calmness for the user. Before I started building the design system, I took some looking for inspiration. Below are some other websites and other images that have a similar feel to what I was going for:
 
@@ -88,7 +83,7 @@ I designed three main screens: the marketing page, the search page, and the vehi
 
 ---
 
-## Final Designs
+## Final designs
 
 Below are the final designs for mobile and desktop screen sizes.
 
@@ -98,6 +93,6 @@ Below are the final designs for mobile and desktop screen sizes.
 
 ---
 
-## Desktop Prototype
+## Desktop prototype
 
 You can also [view the desktop prototype](https://www.figma.com/proto/43L62StrYIYKIOttFqflgn/Spark?page-id=141%3A2&type=design&node-id=300-4337&viewport=150%2C581%2C0.04&t=V5QA0akBO9n8DcNC-1&scaling=min-zoom&starting-point-node-id=300%3A4337). To navigate the prototype, ensure that the width is set to 'Zoom Actual size (100%)' by clicking the **z** key. To go to the start of the prototype, select the r key. To identify which parts are interactive, click anywhere on the prototype.
