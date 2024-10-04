@@ -1,6 +1,6 @@
 ---
 title: "Bitwarden"
-summary: Redesigning the interface and improving the user experience of the Bitwarden password manager.
+summary: Improving the user experience of Bitwarden password manager.
 tags: project
 thumb: "/img/bitwarden/thumb.webp"
 date: 2023-10-25
