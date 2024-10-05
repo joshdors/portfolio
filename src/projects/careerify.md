@@ -1,16 +1,16 @@
 ---
-title: "Making it easy to search and apply to jobs"
+title: "Seeker"
+summary: Quick summary of project goes here.
 tags: 
-type: "Mobile Design"
+type: "Mobile design"
 year: "2024"
 thumb: "/img/thumb.png"
 date: 2024-06-25
-showthumb: true
 ---
 
-## Introduction 
-
 I really enjoy solving problems and helping people through design. So, for a fun side project I wanted to create an app that makes it easy to search and apply to jobs. Right now, if you were to go on LinkedIn, Indeed or any other job search website, the overall user experience can be confusing and sometimes even frustrating. My goal with this project is to design a product that addresses these problems and adds helpful features.
+
+---
 
 ## What are some of the problems?
 

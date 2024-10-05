@@ -42,7 +42,7 @@
     }
 
     figure figcaption {
-        @apply mt-3 text-zinc-500 text-sm leading-7;
+        @apply mt-4 text-zinc-500 text-sm leading-6;
     }
 
     .border-figure img {

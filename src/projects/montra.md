@@ -1,6 +1,6 @@
 ---
 title: "Montra"
-summary: "Designing an interface for a web based video creation tool."
+summary: "Easily create proffessional videos"
 tags: project
 thumb: "/img/montra/thumb.webp"
 date: 2023-12-25
@@ -8,7 +8,7 @@ year: 2023
 type: Product design
 ---
 
-I had the oppurtunity to work on the design of [Montra](http://montra.com), a slide-based video editor that helps people make professional videos with a similar experience to making a PowerPoint presentation. My role was to design a user interface based on pre-existing wireframes and to make changes to the user experience as I saw fit. This is a little walkthrough of how I designed the web app.
+Montra is a slide-based video editor that helps people make professional videos with a similar experience to making a PowerPoint presentation. My role was to design a user interface based on pre-existing wireframes and to make changes to the user experience as I saw fit. This is a little walkthrough of how I designed the web app.
 
 ---
 

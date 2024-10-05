@@ -1,11 +1,11 @@
 ---
 title: "Spark"
-summary: "Designing a conceptual website that makes it easy to buy and sell EV's online."
+summary: "Conceptual website to buy and sell EV's"
 tags: project
 thumb: "/img/spark/thumb.webp"
 date: 2023-03-25
 year: 2023
-type: Side project
+type: Web
 ---
 
 Spark is a conceptual website that aims to provide an enjoyable and user-friendly experience for people shopping for electric cars. It’s 2023, and there isn't a website for shopping for electric cars that offers a pleasant and user-friendly experience. Instead, existing websites tend to have confusing and outdated user interfaces. Spark aims to fill this gap by simplifying the process and making it easy for users to find the electric vehicle they are looking for.

@@ -2,12 +2,15 @@
 layout: base.njk
 ---
 
-<article class="mt-12 lg:mt-24">
-    <div class="left-8 right-0 top-24 max-w-5xl mx-auto lg:fixed text-sm font-medium text-zinc-800 mb-8 lg:mb-0"><a href="/"><span class="text-zinc-500">&larr;&nbsp;&nbsp;</span>Go back</a></div>
+<article class="mt-6 lg:mt-28">
+    <div class="left-8 right-0 top-[104px] max-w-4xl mx-auto lg:sticky text-sm font-medium text-zinc-800 mb-20 lg:mb-0 h-0"><a aria-label="Return to homepage" href="/" class="hover:bg-zinc-100 w-fit block p-2.5 -m-2.5 rounded-md transition"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 flex">
+        <path fill-rule="evenodd" d="M14 8a.75.75 0 0 1-.75.75H4.56l3.22 3.22a.75.75 0 1 1-1.06 1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 0 1 1.06 1.06L4.56 7.25h8.69A.75.75 0 0 1 14 8Z" clip-rule="evenodd" />
+      </svg>
+      </a></div>
     <div class="max-w-2xl mx-auto">
-        <h1 class="text-2xl font-bold lg:text-[28px]">{{ title }}</h1>
-        <p class="text-zinc-600 mt-3 text-base inline-block leading-snug">{{ year }} · {{ type }}</p>
-        <div class="post pt-8">
+        <h1 class="font-bold text-[28px]">{{ title }}</h1>
+        <p class="text-zinc-600 mt-2 text-base inline-block leading-snug">{{ year }} · {{ type }}</p>
+        <div class="post mt-9">
             {{ content | safe }}
         </div>
     </div>

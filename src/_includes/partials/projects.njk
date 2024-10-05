@@ -3,7 +3,7 @@
         <h2 class="font-bold text-lg">Recent work</h2>
         <div class="flex-1 h-px ml-4 bg-zinc-200"></div>
     </div>
-    <div class="flex flex-col gap-y-10">
+    <div class="flex flex-col gap-y-9">
         {% for project in collections.project reversed %}
         <a href="{{ project.url }}" class="bg-white border shadow-sm hover:shadow-md rounded-md overflow-hidden">
             <img src="{{ project.data.thumb }}" alt="Thumbnail image for {{ project.data.title }} project.">
