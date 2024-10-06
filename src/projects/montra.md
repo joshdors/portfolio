@@ -1,6 +1,6 @@
 ---
 title: "Montra"
-summary: "Easily create proffessional videos"
+summary: "Easily create professional videos"
 tags: project
 thumb: "/img/montra/thumb.webp"
 date: 2023-12-25
