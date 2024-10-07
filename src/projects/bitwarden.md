@@ -5,7 +5,7 @@ tags: project
 thumb: "/img/bitwarden/thumb.webp"
 date: 2023-10-25
 year: 2023
-type: Side project
+type: Website Redesign
 ---
 
 Bitwarden is a popular open-source password manager used by millions. While it functions well, its mobile, web, and desktop interfaces appear visually outdated. I think their service is good, but the overall experience could be vastly improved by modernizing the design of all their apps. For this side project, I'll be redesigning the website with the goal of enhancing the overall user experience and also adding some new useful features.
