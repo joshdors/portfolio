@@ -51,6 +51,6 @@ I redesigned all the main components and added some roundness to buttons, checkb
 
 ## Completed design
 
-Below is the Figma file with the completed design. Overall, I'm really happy with how the design turned out. I think it would be interesting to hear what users think about this design update and get feedback on what else could be changed to make the web app even better.
+Below is the Figma file with the completed design. Overall, I'm happy with how the design turned out. I think it would be interesting to hear what users think about this design update and get feedback on what else could be changed to make the web app even better.
 
 <iframe title="Figma file for Bitwarden" height="450" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FP9YW1xPGG91sp38byjGhRw%2FBitwarden%3Fnode-id%3D1205-60%26t%3DKVsofjfPUEvKclc5-1" allowfullscreen=""></iframe>
