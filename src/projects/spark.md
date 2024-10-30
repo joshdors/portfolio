@@ -1,11 +1,13 @@
 ---
 title: "Spark"
-summary: "Designing a conceptual EV marketplace"
+summary: "Designing a conceptual online marketplace that makes it easy to buy and sell electric vehicles."
 tags: project
 thumb: "/img/spark/thumb.webp"
-date: 2023-03-25
 year: 2023
-type: Website Concept
+date: 2023-03-25
+type: 
+- UI/UX Design
+- Side Project
 ---
 
 Spark is a conceptual website that aims to provide an enjoyable and user-friendly experience for people shopping for electric cars. It’s 2023, and there isn't a website for shopping for electric cars that offers a pleasant and user-friendly experience. Instead, existing websites tend to have confusing and outdated user interfaces. Spark aims to fill this gap by simplifying the process and making it easy for users to find the electric vehicle they are looking for.
@@ -14,7 +16,7 @@ Spark is a conceptual website that aims to provide an enjoyable and user-friendl
 
 ## Competitor analysis
 
-To create a better website, I conducted a thorough market analysis, evaluating similar websites. By examining what works and what doesn't work in the current market, I gained valuable insights and ideas for designing a better website.
+To create a better website, I conducted a competitor analysis, evaluating similar websites. By examining what works and what doesn't work in the current market, I gained valuable insights and ideas for designing a better website.
 
 ### Insights
 
@@ -90,9 +92,3 @@ Below are the final designs for mobile and desktop screen sizes.
 <iframe title="Figma file for mobile screens" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2F43L62StrYIYKIOttFqflgn%2FSpark%3Fnode-id%3D284-528%26t%3DgzvBAQ1LKriVtbWK-1" allowfullscreen></iframe>
 
 <iframe title="Figma file for desktop screens" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2F43L62StrYIYKIOttFqflgn%2FSpark%3Fnode-id%3D0-1%26t%3DgzvBAQ1LKriVtbWK-1" allowfullscreen></iframe>
-
----
-
-## Desktop prototype
-
-You can also [view the desktop prototype](https://www.figma.com/proto/43L62StrYIYKIOttFqflgn/Spark?page-id=141%3A2&type=design&node-id=300-4337&viewport=150%2C581%2C0.04&t=V5QA0akBO9n8DcNC-1&scaling=min-zoom&starting-point-node-id=300%3A4337). To navigate the prototype, ensure that the width is set to 'Zoom Actual size (100%)' by clicking the **z** key. To go to the start of the prototype, select the r key. To identify which parts are interactive, click anywhere on the prototype.

@@ -1,6 +1,6 @@
 module.exports = {
     url: process.env.URL || "http://localhost:8080",
-    siteName: "Josh's Website",
+    siteName: "Josh Dors",
     siteDescription:
-        "Josh's Website",
+        "Josh Dors",
 };

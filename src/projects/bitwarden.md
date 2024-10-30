@@ -1,11 +1,13 @@
 ---
 title: "Bitwarden"
-summary: Redesigning a password manager
+summary: "Redesigning the interface and enhancing the user experience of Bitwarden's password manager."
 tags: project
 thumb: "/img/bitwarden/thumb.webp"
 date: 2023-10-25
 year: 2023
-type: Website Redesign
+type: 
+- Redesign
+- UI/UX Design
 ---
 
 Bitwarden is a popular open-source password manager used by millions. While it functions well, its mobile, web, and desktop interfaces appear visually outdated. I think their service is good, but the overall experience could be vastly improved by modernizing the design of all their apps. For this side project, I'll be redesigning the website with the goal of enhancing the overall user experience and also adding some new useful features.
@@ -19,13 +21,21 @@ Bitwarden is a popular open-source password manager used by millions. While it f
 
 ---
 
-## What I'm changing and adding
+## Updates and additions
 
-- **Typeface**: Changing the typeface of a product can make a big impact on the overall feel. For Bitwarden, I changed the typeface to [Inter](https://rsms.me/inter/), a modern sans-serif font that works great for this type of interface.
+For this project, I will be changing the typeface, redesigning the navigation, and adding new features, such as quick actions.
 
-- **Navigation**: The current design uses an outdated sidebar design. Because of this, there's a lot of empty whitespace being underutilized. In the updated design, I moved the floating sidebar to the left and can now utilize some horizontal space for each item that was just empty whitespace before.
+### Typeface
 
-- **Quick actions**: It takes about two clicks to copy a username, password or authentication code in the current design. In the new design, I added "Quick actions", where you can easily copy passwords, usernames, and authentication codes in one click without selecting any dropdown menus. It's the little things like this that can make a product much better.
+Changing the typeface of a product can make a big impact on the overall feel. For Bitwarden, I changed the typeface to [Inter](https://rsms.me/inter/), a modern sans-serif font that works great for this type of interface.
+
+### Navigation
+
+The current design uses an outdated sidebar design. Because of this, there's a lot of empty whitespace being underutilized. In the updated design, I moved the floating sidebar to the left and can now utilize some horizontal space for each item that was just empty whitespace before.
+
+### Quick actions
+
+It takes about two clicks to copy a username, password or authentication code in the current design. In the new design, I added "Quick actions", where you can easily copy passwords, usernames, and authentication codes in one click without selecting any dropdown menus. It's the little things like this that can make a product much better.
 
 <figure class="border-figure">
     <picture>

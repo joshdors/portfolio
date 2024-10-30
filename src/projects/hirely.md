@@ -1,10 +1,12 @@
 ---
-title: "Seeker"
-summary: Quick summary of project goes here.
+title: "Hirely"
+summary: Designing a conceptual mobile app to easily search and apply to jobs as well as track all in one app.
 tags: 
-type: "Mobile design"
+type: 
+- Mobile Design
+- Concept
 year: "2024"
-thumb: "/img/thumb.png"
+thumb: "/img/test.png"
 date: 2024-06-25
 ---
 

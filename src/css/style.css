@@ -6,8 +6,18 @@
     @apply outline-offset-2;
 }
 
-.link {
+.link, .post a {
     @apply text-blue-600 hover:underline;
+}
+
+.post-type {
+    &::after {
+        content: ",";
+    }
+
+    &:last-child::after {
+        content: "";
+    }
 }
 
 /* Post */
@@ -22,15 +32,11 @@
     }
 
     h2 {
-        @apply text-xl font-bold mb-3 text-zinc-900;
+        @apply text-xl font-semibold mb-4 text-zinc-900;
     }
 
     h3 {
-        @apply text-lg font-semibold mb-3 mt-8 text-zinc-900;
-    }
-
-    a {
-        @apply text-blue-600 hover:underline;
+        @apply text-base font-semibold mb-3 mt-9 text-zinc-900;
     }
 
     figure {
