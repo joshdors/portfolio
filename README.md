@@ -1,4 +1,4 @@
-# Portfolio
+# Website
 
 Bare-bones 11ty starter template using Tailwind CSS. This is a good starting point for simple static websites.
 
