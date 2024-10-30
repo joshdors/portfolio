@@ -6,8 +6,8 @@ thumb: "/img/spark/thumb.webp"
 year: 2023
 date: 2023-03-25
 type: 
+- Concept
 - UI/UX Design
-- Side Project
 ---
 
 Spark is a conceptual website that aims to provide an enjoyable and user-friendly experience for people shopping for electric cars. It’s 2023, and there isn't a website for shopping for electric cars that offers a pleasant and user-friendly experience. Instead, existing websites tend to have confusing and outdated user interfaces. Spark aims to fill this gap by simplifying the process and making it easy for users to find the electric vehicle they are looking for.
